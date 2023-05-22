@@ -1,0 +1,45 @@
+.register
+{
+ /* width: 400px; */
+    /* background-color: #fff; */
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+    border:1px solid #dddfe2;
+    box-shadow: 0 58px 4px rgba(0, 0, 0, 0.462),0 8px 16px rgb(0 0 0 /10%);
+     border-radius: 8px;
+    padding: 1rem;
+     /* align-items: center; */
+     text-align: center;  
+     display: flex;
+     flex-direction: column;
+     width: 100vw;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     background-color: #f0f2f5;
+     font-family: Arial,  sans-serif;
+}
+.adminuser{
+    color: wheat;
+}
+.register>input{
+    border-radius: 8px;
+    border:2px solid #0e0000fb;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 30%;
+    font-size: 1rem;
+}
+.register>.button{
+    background-color: #1877f2;
+    border:2px solid #0e0000fb;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 30%;
+}

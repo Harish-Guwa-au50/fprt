@@ -1,0 +1,43 @@
+.login
+
+{
+    background-image: url('https://png.pngtree.com/background/20210706/original/pngtree-business-background-white-collar-jobs-picture-image_216619.jpg');
+    /* width: 400px; */
+    /* background-color: #fff; */
+    border:1px solid #dddfe2;
+    box-shadow: 0 58px 4px rgb(0 0 0 / 10%),0 8px 16px rgb(0 0 0 /10%);
+     border-radius: 8px;
+    padding: 1rem;
+     /* align-items: center; */
+     text-align: center;  
+     display: flex;
+     flex-direction: column;
+     width: 100vw;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     background-color: #f0f2f5;
+     font-family: Arial,  sans-serif;
+}
+.login>input{
+    border-radius: 8px;
+    border:2px solid #3a5001;
+    outline: none;
+    color: (220, 100%, 50%, 0);
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width:30%;
+    font-size: 1rem;
+}
+.login>.button{
+    background-color: #1877f2;
+    border:2px solid #001008;
+    color:white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    width: 30%;
+    cursor: pointer;
+}
